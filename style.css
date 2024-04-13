@@ -1,0 +1,64 @@
+.header h1{
+    color: orange;
+}
+.items{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.item1{
+    display: grid;
+    place-items: center;
+    grid-column: span 1;
+    background-color: blue;
+    grid-row: span 2;
+}
+
+.item2{
+    display: grid;
+    place-items: center;
+    grid-column: span 1;
+    background-color: blue;
+}
+
+.item3{
+    display: grid;
+    place-items: center;
+    grid-column: span 1;
+    background-color: blue;
+}
+
+.item4{
+    display: grid;
+    place-items: center;
+    grid-column: span 1;
+    background-color: blue;
+}
+
+.item5{
+    display: grid;
+    place-items: center;
+    grid-column: span 1;
+    background-color: blue;
+}
+
+.item6{
+    display: grid;
+    place-items: center;
+    grid-column: span 1;
+    background-color: blue;
+}
+
+.item7{
+    display: grid;
+    place-items: center;
+    grid-column: span 2;
+    background-color: blue;
+}
+.item1 p, .item2 p, .item3 p, .item4 p, .item5 p, .item6 p, .item7 p{
+    margin: 2rem;
+}
